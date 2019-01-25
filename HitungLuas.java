@@ -3,7 +3,7 @@ public class HitungLuas{
   Scanner s = new Scanner(System.in);
   public HitungLuas(){
   cariLuasLingkaran();
-
+}
   public void cariLuasLingkaran(){
       System.out.println("Kita akan menghitung luas lingkaran!");
       System.out.println("Masukan nilai dari Jari-jari:");
@@ -14,5 +14,4 @@ public class HitungLuas{
       System.out.println(luasLingkaran);
 }
 
-}
 }
