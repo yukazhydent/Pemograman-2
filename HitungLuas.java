@@ -13,5 +13,7 @@ public class HitungLuas{
       System.out.println("Berikut luas Lingkaran dengan  Jari-jari = " + jari + ":");
       System.out.println(luasLingkaran);
 }
-
+public static void main(String[] args) {
+  new HitungLuas();
+}
 }
