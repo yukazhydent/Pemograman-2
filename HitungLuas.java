@@ -1,19 +1,21 @@
 import java.util.Scanner;
 public class HitungLuas{
-public static void main(String[] args) {
-int panjang;
-int lebar;
-double luas;
+  public static void luasPersegiPanjang() {
+          int panjang;
+          int lebar;
+          int luas;
+          Scanner masukkan = new Scanner(System.in);
 
-Scanner scan = new Scanner(System.in);
-System.out.println("Menghitung Luas Persegi Panjang");
-System.out.print("Masukkan Panjang: ");
-panjang = scan.nextInt();
-System.out.print("Masukkan Lebar: ");
-lebar = scan.nextInt();
+          System.out.print("Masukan panjang: ");
+          panjang = masukkan.nextInt();
 
-luas = (lebar * panjang);
-System.out.println("Luas Segi Panjang =" +luas);
+          System.out.print("Masukan Lebar: ");
+          lebar = masukkan.nextInt();
 
+          luas = panjang * lebar;
+
+          System.out.println("Luas dari persegi panjang dari panjang " + panjang + " cm dan lebar " + lebar + " cm adalah " + luas);
+          System.out.println("");
 }
+
 }
