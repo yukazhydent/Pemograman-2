@@ -21,5 +21,16 @@ public class Latihan1{
         break;
     }
     System.out.println("Comment: "+ket);
+	
+	System.out.println("Masukkan tiga nilai ujian anda untuk dihitung rata-ratanya:");
+    int nilai1 = s.nextInt();
+    int nilai2 = s.nextInt();
+    int nilai3 = s.nextInt();
+
+    double eva = (double)(nilai1+nilai2+nilai3)/3;
+    if (eva >= 60) {
+      System.out.println("Nilai rata-rata ujian anda adalah "+eva+", Congratulations :D");
+    }else{
+      System.out.println("Nilai rata-rata ujian anda adalah "+eva+", Belajar lebih baik lagi :(");
   }
   }
