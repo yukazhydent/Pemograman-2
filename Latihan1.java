@@ -34,3 +34,4 @@ public class Latihan1{
       System.out.println("Nilai rata-rata ujian anda adalah "+eva+", Belajar lebih baik lagi :(");
   }
   }
+}
